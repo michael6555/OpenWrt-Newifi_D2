@@ -12,7 +12,7 @@
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
 # Modify hostname
-sed -i 's/OpenWrt/Ac2100/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Redmi_ac2100/g' package/base-files/files/bin/config_generate
 
 # Modify the version number
 sed -i "s/OpenWrt /Michale655 build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
