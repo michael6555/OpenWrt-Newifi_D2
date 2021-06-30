@@ -17,7 +17,7 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 sed -i '$a src-git theme https://github.com/sirpdboy/luci-theme-btmod' feeds.conf.default
-sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
+#sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
 
 git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 git clone https://github.com/garypang13/smartdns-le package/smartdns-le
