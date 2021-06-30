@@ -18,7 +18,7 @@ sed -i 's/OpenWrt/Redmi_ac2100/g' package/base-files/files/bin/config_generate
 sed -i "s/OpenWrt /Michale655 build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 # Modify default theme
-sed -i 's/luci-theme-btmod/luci-theme-opentopd/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-btmod/g' feeds/luci/collections/luci/Makefile
 
 # Add kernel build user
 [ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
